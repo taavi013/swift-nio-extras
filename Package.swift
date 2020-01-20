@@ -36,6 +36,7 @@ let package = Package(
         .executable(name: "NIOWritePCAPDemo", targets: ["NIOWritePCAPDemo"]),
         .library(name: "NIOExtras", targets: ["NIOExtras"]),
         .library(name: "NIOHTTPCompression", targets: ["NIOHTTPCompression"]),
+        .library(name: "CNIOExtrasZlib", targets: ["CNIOExtrasZlib"]),
     ],
     dependencies: [
         .package(url: "https://github.com/apple/swift-nio.git", from: "2.9.0"),
